@@ -18,6 +18,7 @@ The character 'l' at index 0 is the first character that does not occur at any o
 
 // Approach - Using Hashmap -> char with count
 // Traverse through string to find first unique ( count == 1 ) occurrence.
+// TC = O(2n)   SC = O(n)
 
 class Solution
 {

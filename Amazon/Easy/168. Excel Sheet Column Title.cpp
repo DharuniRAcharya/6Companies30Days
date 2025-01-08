@@ -33,6 +33,14 @@ Output: "ZY"
 
 */
 
+/*
+TC = O(logN)
+
+The number of operations would be equal to the number of while loop iterations. In each iteration, the number N gets divided by 26. Hence the time complexity would be O(log26​N). Note that the base of the logarithm is not relevant when it comes to big O, since all logarithms are related by a constant factor.
+
+SC = O(1)
+*/
+
 class Solution
 {
 public:

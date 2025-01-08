@@ -29,6 +29,7 @@ struct Node {
 */
 
 // Approach - traverse through the entire list -> when count of nodes == m run the deletion for n nodes and reset count
+// TC = O(n)    SC = O(1)
 
 class Solution
 {
